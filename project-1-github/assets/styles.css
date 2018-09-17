@@ -41,11 +41,11 @@ body {
     border-color: #ED1C24;
     border-width: 9px;
     border-radius: 50%;
-    width: 387.678px;
-    height: 387.678px;
+    width: 379.678px;
+    height: 379.678px;
     position: relative;
-    top: -394px;
-    left: -44.5px;
+    top: -388px;
+    left: -38.5px;
 	z-index: 1;
 }
 .alphabet {
@@ -59,7 +59,7 @@ body {
     text-align: right;
     position: relative;
     top: -698px;
-    left: 147px;
+    left: 146px;
 	z-index: 3;
 }
 .alphabet p {
@@ -67,7 +67,7 @@ body {
     font-family:"joschmi";
     font-weight: 400;
     font-size: 30.96px;
-	margin: 10px 20px 10px 0px;
+	margin: 10px 15px 10px 0px;
 }
 #button {
     border-style: solid;
@@ -79,7 +79,7 @@ body {
     height: 48.282px;
     position: relative;
     top: -653px;
-    left: 314px;
+    left: 345px;
 	z-index: 999;
 }
 .black-circle-bttn {
@@ -91,26 +91,26 @@ body {
     width: 216px;
     height: 216px;
     position: relative;
-    top: -795px;
-    left: 221px;
+    top: -792px;
+    left: 252px;
 	z-index: 2;
 }
 .red-light-circle-bttn {
     border-style: solid;
     border-color: #ED1C24;
-    border-width: 1.2px;
+    border-width: 1.5px;
     border-radius: 50%;
     width: 269.104px;
     height: 269.104px;
     position: relative;
     top: -1044px;
-    left: 200px;
+    left: 230px;
 	z-index: 1;
 }
 .red-light-circle-left {
     border-style: solid;
     border-color: #ED1C24;
-    border-width: 1.2px;
+    border-width: 1.5px;
     border-radius: 50%;
     width: 269.104px;
     height: 269.104px;
@@ -125,7 +125,7 @@ body {
     border-width:6.48px;
     background-color:#EFDDBA;
 	position:relative;
-	top: 8px;
+	top: -2px;
     width: 470.276px;
     height: 87.775px;
 	z-index: 9;
@@ -151,7 +151,7 @@ body {
     height: 128.396px;
     position: relative;
     top: -1381px;
-    left: 115px;
+    left: 108px;
 	z-index: 10;
 	
 }
@@ -171,7 +171,7 @@ body {
     height: 169.973px;
     position: relative;
     top: -1524px;
-    left: 291px;
+    left: 275px;
 	z-index: 1;
 }
 .sources {
@@ -182,8 +182,8 @@ body {
     width: 361.081px;
     height: 64.531px;
     position: relative;
-    top: -1374px;
-    left: 115px;
+    top: -1372px;
+    left: 108px;
 	z-index: 10;
 	}
 .sources p {
@@ -217,7 +217,7 @@ body {
 .name-major {
     
     border-style: solid;
-    border-color: #000;
+    border-color:#000 ;
     background-color:#EFDDBA;
     border-width: 6.48px;
     width: 220.599px;
@@ -240,8 +240,8 @@ img.picture-face {
     height: 227.88px;
     width: 113.943px;
     position:relative;
-    top: -1789px;
-    left: -27px;
+    top: -1787px;
+    left: -26.69px;
 	z-index: 3;
 }
 .analysis {
