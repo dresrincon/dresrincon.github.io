@@ -1,0 +1,229 @@
+.master-container {
+    position:relative;
+    top: 35%;
+    left: 35%;
+    width:614px;
+    height:795px;
+}
+#quartercircle {
+    position:absolute;
+    top:22px;
+    left:27px;
+}
+
+body {
+    background-color:#060D1C;
+    font-family: reross-quadratic;
+    color:#B0A08B;
+    margin: 0;
+    padding: 0;
+}
+
+/*letter & button section*/
+/*
+#quartercircle-container {
+    width:100px;
+    height:100px; 
+    border-style:solid;
+    border-color:#B0A08B;
+    border-width:6.49px;
+    border-radius: 90px 0 0 0;
+*/
+#circle-with-letter {
+    position:absolute;
+    top:169px;
+    left:221px;
+    width:240.197px;
+    height:240.197px;
+    background-color:#060D1C;
+    border-style: solid;
+    border-color:#B0A08B;
+    border-width:6.48px;
+    border-radius: 50%;
+}
+.right-container {
+    position:absolute;
+    top: 195px;
+    left: 330px;
+}
+.alphabet {
+    position: absolute;
+    top:-139px;
+    left:-8px;
+    width: 367.465px;
+    height: 188.012px;
+    border-style: solid;
+    border-color:#900300;
+    border-width: 6.48px;
+    background-color:#060D1C; 
+}
+/*
+.alphabet p{
+    position: absolute;
+    top:10px;
+    left:10px;
+    width: 369.985px;
+    height: 188.012px;
+    margin-top: auto;
+    color: #B0A08B;
+    font-size: 30px;
+}
+*/
+
+#rectangle1 {
+    position: absolute;
+    top:38px;
+    left:10px;
+    width:432.604px;
+    height:24.467px;
+    fill:#060D1C;
+    border-style: solid;
+    border-color:#C98524;
+    border-width:6.48px;
+    background-color:#060D1C; 
+}
+#button-container {
+    position: absolute;
+    top:54px;
+    left:-8px;
+    width:367.464px;
+    height:160.34px;
+    border-style:solid;
+    border-color:#B0A08B;
+    border-width:6.48px;
+    background-color:#060D1C;    
+}
+#button {
+    position: absolute;
+    top:57px;
+    left:144px;
+    width: 48.075px;
+    height: 48.075px;
+    background-color: #006DB7;
+    border-radius: 50%;
+}
+.left-container {
+    position: absolute;
+    top:-6px;
+    left:16px;
+}
+#rectangle2 {
+    position: absolute;
+    top:391px;
+    left:-115px;
+    width:432.604px;
+    height:24.467px;
+    fill:#060D1C;
+    border-style: solid;
+    border-color:#900300;
+    border-width:6.48px;
+    background-color:#060D1C; 
+    
+}
+.descriptor-paragraph {
+    position: absolute;
+    top:421px;
+    left:-62px;
+    width: 380.583px;
+    height: 108.372px;
+    border-style: solid;
+    border-color: #C98524;
+    border-width: 6.48px;
+    background-color:#060D1C; 
+}
+.descriptor-paragraph p {
+    position: absolute;
+    top:10px;
+    left:10px;
+    font-family: oswald;
+    font-weight: 300;
+    font-size: 10px;
+    width: 380.583px;
+    height: 108.372px;
+}
+
+.sources {
+    position: absolute;
+    top:536px;
+    left:-62px;
+    width: 380.583px;
+    height: 119.843px;
+    border-style: solid;
+    border-color: #B0A08B;
+    border-width: 6.48px;
+    background-color:#060D1C; 
+}
+.sources p{
+    position: absolute;
+    top:10px;
+    left:10px;
+    font-family: oswald;
+    font-weight: 300;
+    font-size: 10px;
+}
+#face {
+    position: absolute;
+    top:662px;
+    left:97px;
+    border-style: solid;
+    border-width: 6.48px;
+    border-color: #900300; 
+    width: 223px;
+    height: 149px;
+}
+.assets/images/andresred.png {
+    resize: 50%
+}
+#letterform {
+    position: absolute;
+    top:10px;
+    left:10px;
+    font-size: 215px;
+}
+.container-author {
+    position: absolute;
+    top:656px;
+    left:342px;
+    height: 81.633px;
+    width: 524px;
+    border-style: solid;
+    border-color: #C98524;
+    border-width: 6.49px;
+    background-color:#060D1C;
+}
+h3 {
+    position: absolute;
+    top:10px;
+    left:10px;
+    font-family: oswald;
+    font-style: medium;
+    font-size: 12.92px;
+    text-transform: uppercase;
+}
+h4 {
+    position: absolute;
+    top:10px;
+    left:10px;
+    font-family: oswald;
+    font-style: medium;
+    font-size: 12.92px;
+    text-transform: uppercase;
+}
+#vertical-line1 {
+    position: absolute;
+    left:321px;
+    border-left:6.48px solid #B0A08B;
+    height:500px;
+}
+#vertical-line2 {
+    position:absolute;
+    top: 421px;
+    left:342px;
+    border-left: 6.48px solid #B0A08B;
+    height:500px;
+}
+#angled-line {
+    position:absolute;
+    border-left:6.48px solid #B0A08B;
+    height:500px;
+}
