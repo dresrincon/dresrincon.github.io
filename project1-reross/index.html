@@ -4,7 +4,10 @@
         <link rel="stylesheet" href="https://use.typekit.net/ged0cvn.css">
         <link rel="stylesheet" href="assets/styles.css">
         <title> Reross by Andrés Felipe Rincón </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="assets/jquery.cycle2.min.js"></script>
     </head>
+    <div class="clipping-container">
     <div class="master-container">
         <div id="vertical-line1"></div>
         <div id="vertical-line2"></div>
@@ -15,27 +18,36 @@
                     </div>
             </div>
             <div class="right-container">
-                <div class="alphabet">
-<!--                    <p>a b c d e f g h i j k l m n o p q r s t u v w x y z 1 2 3 4 5 6 7 8 9</p>-->
+                <div class="alphabet-container">
+                    <div class="alphabet-letters">
+                        <p1>abcdefghijklmo</p1>
+                        <p2>pqrstuvwxyz</p2>
+                        <p3>123456789</p3>
+                    </div>
                 </div>
                 <div id="rectangle1"></div>
                 <div id="button-container">
+                     <div class="cycle-slideshow analysis" data-cycle-timeout="0" data-cycle-next="#button"> 
+                    <img src="assets/analysis/blank-analysis.png" width="195" height="205.25" alt="an empty .png place holder file" class="cycle-slide" />
+                    <img src="assets/analysis/letter-analysis.png" width="195" height="205.25" alt="typographic analysis of the reross 2" class="cycle-slide" />
+                    </div>
                     <div id="button"></div>
                 </div>
             </div>
             <div class="left-container">
                 <div id="quartercircle">
-                    <img src="assets/images/reross-quartercircle-05.svg" width="385px">
+                    <img src="assets/images/reross-quartercircle2-05.svg" width="223.83px">
                 </div>
                 <div id="rectangle2"></div>
                 <div class = "descriptor-paragraph">
-                    <p>Reross revives the alphabet designs of Reinhold Rossig—a student of Bauhaus typographer Joost Schmidt (<a href="https://fonts.adobe.com/fonts/hidden-treasures/details/reross-quadratic#about-section">“Hidden”</a>). Nearly ninety years after Rossig drafted an alphabet, Elia Preuss, a German typography student, created a typeface out of it by complementing Rossig’s letterforms with the poster designs of Rossig’s peer Herman Werner Kubsch (<a href="https://luc.devroye.org/fonts-94902.html">"Devroye"</a>;<a href="https://theculturetrip.com/europe/germany/articles/in-partnership-with-adobe-a-german-designer-has-resurrected-lost-bauhaus-fonts/">“Partnership”</a>). The letterforms explore width and x-height, and resemble Schmidt’s work in their monolinear, geometric, sans-serif appearance, and construction using a compass and ruler (<a href="https://theblog.adobe.com/the-my500-ui-kit-everything-you-need-to-build-a-bauhaus-inspired-editorial-design-in-adobe-xd/">Faller</a>).</p>
+                    <p>Reross revives the alphabet designs of Reinhold Rossig—a student of Bauhaus typographer Joost Schmidt (<a href="https://fonts.adobe.com/fonts/hidden-treasures/details/reross-quadratic#about-section">“Hidden”</a>). Ninety years after Rossig drafted an alphabet, Elia Preuss, a German typographer, created a typeface out of it by combining Rossig’s letterforms with the poster work of Rossig’s peer Herman Werner Kubsch (<a href="https://theculturetrip.com/europe/germany/articles/in-partnership-with-adobe-a-german-designer-has-resurrected-lost-bauhaus-fonts/">“Gould”</a>). The letterforms explore width and x-height, and resemble Schmidt’s work in their monolinear, geometric, sans-serif appearance, and construction using a compass and ruler (<a href="https://theblog.adobe.com/the-my500-ui-kit-everything-you-need-to-build-a-bauhaus-inspired-editorial-design-in-adobe-xd/">Faller</a>).</p>
                 </div>
-                <div class="sources">
-                    <p>Devroye, Luc. “Elia Preuss.” Type Design Information Page, 2018.</p>
-                    <p>Faller, Patrick. “Everything You Need to Build a Bauhaus-Inspired Editorial Design in Adobe XD.” Adobe Blog, Adobe, 26 Sept. 2018.</p>
-                    <p>Gould, Rachel. “In Partnership with Adobe, a German Designer Has Resurrected Lost Bauhaus Fonts.” Culture Trip, 18 June 2018.</p>
-                    <p>“Hidden Treasures of the Bauhaus Dessau from Adobe Originals.” Adobe Fonts, Adobe, 2018.</p>
+                <div class="sources-container">
+                    <div class="sources-paragraphs">
+                        <p5>Faller, Patrick. “Everything You Need to Build a Bauhaus-Inspired Editorial Design in Adobe XD.” Adobe Blog, Adobe, 26 Sept. 2018.</p5>
+                        <p6>Gould, Rachel. “In Partnership with Adobe, a German Designer Has Resurrected Lost Bauhaus Fonts.” Culture Trip, 18 June 2018.</p6>
+                        <p7>“Hidden Treasures of the Bauhaus Dessau from Adobe Originals.” Adobe Fonts, Adobe, 2018.</p7>
+                    </div>
                 </div>
                 <div id="face">
                     <img src="assets/images/andresred2.jpg" width="223px">
@@ -48,5 +60,6 @@
             </div>
         </body>
         <div id="angled-line"></div>
+    </div>
     </div>
 </html>
