@@ -173,7 +173,7 @@ p3{
 }
 .descriptor-paragraph p {
     position: absolute;
-    font-family: oswald;
+    font-family: oswald, sans-serif;
     font-weight: 300;
     font-size: 8.5px;
     width: 313px;
@@ -198,7 +198,7 @@ p3{
 }
 .sources-paragraphs{
     position: absolute;
-    font-family: oswald;
+    font-family: oswald, sans-serif;
     font-weight: 300;
     font-size: 8.5px;
     width: 313px;
@@ -309,6 +309,6 @@ a:hover {
 .analysis {
     position: absolute;
     z-index: 20;
-    top: -63px;
+    top: -62px;
     left: -81px;
 }
