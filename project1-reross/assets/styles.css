@@ -161,10 +161,10 @@ p3{
 }
 .descriptor-paragraph {
     position: absolute;
-    top:426px;
+    top:424px;
     left:-55px;
     width: 374.583px;
-    height: 106.372px;
+    height: 121.672px;
     border-style: solid;
     border-color: #C98524;
     border-width: 6.48px;
@@ -175,8 +175,8 @@ p3{
     position: absolute;
     font-family: oswald, sans-serif;
     font-weight: 300;
-    font-size: 8.5px;
-    width: 313px;
+    font-size: 9px;
+    width: 308px;
     height: 58.769px;
     margin-left: 30px;
     margin-right: 10px;
@@ -185,7 +185,7 @@ p3{
 
 .sources-container {
     position: absolute;
-    top:536px;
+    top:548px;
     left:-55px;
     width: 374px;
     height: 114.12px;
@@ -227,7 +227,7 @@ p7 {
 }
 #face {
     position: absolute;
-    top:656px;
+    top:665.99px;
     left:97px;
     border-style: solid;
     border-width: 6.48px;
@@ -247,7 +247,7 @@ p7 {
 }
 .container-author {
     position: absolute;
-    top:656px;
+    top:665.99px;
     left:342px;
     height: 81.633px;
     width: 427px;
@@ -295,8 +295,8 @@ h4 {
     border-left:6.48px solid #900300;
     height: 1277px;
     top: -100px;
-    left: 444px;
-    transform: rotate(40deg);
+    left: 449px;
+    transform: rotate(39.5deg);
     z-index: -11;
 }
 a {
