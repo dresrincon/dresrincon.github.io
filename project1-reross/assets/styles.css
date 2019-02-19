@@ -164,7 +164,7 @@ p3{
     top:424px;
     left:-55px;
     width: 374.583px;
-    height: 121.672px;
+    height: 123.672px;
     border-style: solid;
     border-color: #C98524;
     border-width: 6.48px;
@@ -188,7 +188,7 @@ p3{
     top:548px;
     left:-55px;
     width: 374px;
-    height: 114.12px;
+    height: 113.12px;
     border-style: solid;
     border-color: #B0A08B;
     border-width: 6.48px;
@@ -204,7 +204,7 @@ p3{
     width: 313px;
     height: 119.843px;
     margin-left: 30px;
-    margin-top: 5px;
+    margin-top: 9px;
 }
 p4 {
     position: absolute;
@@ -217,13 +217,13 @@ p5 {
 }
 p6 {
     position: absolute;
-    margin-top: 47px;
+    margin-top: 43.5px;
     margin-left: 2em;
     text-indent: -2em;
 }
 p7 {
     position: absolute;
-    margin-top: 77px;
+    margin-top: 69px;
 }
 #face {
     position: absolute;
@@ -247,7 +247,7 @@ p7 {
 }
 .container-author {
     position: absolute;
-    top:665.99px;
+    top:665px;
     left:342px;
     height: 81.633px;
     width: 427px;
