@@ -1,0 +1,318 @@
+.clipping-container {
+    position:relative;
+    top: 167px;
+    left: 35%;
+    width:673.503px;
+    height:871.196px;
+}
+.master-container {
+    position: absolute;
+    top: 25px;
+    left: -14px;
+    width: 614px;
+    height: 795px;
+    transform: rotate(-37deg);
+}
+#quartercircle {
+    position:absolute;
+    top:73.5px;
+    left:88px;
+}
+
+body {
+    background-color:#060D1C;
+    font-family: reross-quadratic;
+    color:#B0A08B;
+    margin: 0;
+    padding: 0;
+}
+
+/*letter & button section*/
+/*
+#quartercircle-container {
+    width:100px;
+    height:100px; 
+    border-style:solid;
+    border-color:#B0A08B;
+    border-width:6.49px;
+    border-radius: 90px 0 0 0;
+*/
+#circle-with-letter {
+    position:absolute;
+    top:181px;
+    left:221px;
+    width:237.197px;
+    height:237.197px;
+    background-color:#060D1C;
+    border-style: solid;
+    border-color:#B0A08B;
+    border-width:6.48px;
+    border-radius: 50%;
+    z-index: 10;
+}
+.right-container {
+    position:absolute;
+    top: 195px;
+    left: 330px;
+}
+.alphabet-container {
+    position: absolute;
+    top:-123px;
+    left:-9px;
+    width: 361.464px;
+    height: 181.85px;
+    border-style: solid;
+    border-color:#900300;
+    border-width: 6.48px;
+    background-color:#060D1C;
+    border-radius: 0px 190px 0px 0px;
+    overflow: hidden;
+}
+.alphabet-letters {
+    position: absolute;
+    top:-19px;
+    left: -49px;
+}
+p1{
+    position: absolute;
+    top:44px;
+    left:85px;
+    width: 369.985px;
+    height: 188.012px;
+    margin-top: auto;
+    color: #B0A08B;
+    font-size: 30px;
+}
+
+p2{
+    position: absolute;
+    top:80px;
+    left:153px;
+    width: 369.985px;
+    height: 188.012px;
+    margin-top: auto;
+    color: #B0A08B;
+    font-size: 30px; 
+}
+
+p3{
+    position: absolute;
+    top:120px;
+    left:201px;
+    width: 369.985px;
+    height: 188.012px;
+    margin-top: auto;
+    color: #B0A08B;
+    font-size: 30px;
+}
+
+#rectangle1 {
+    position: absolute;
+    top:45px;
+    left:10px;
+    width:888.604px;
+    height:28.671px;
+    fill:#060D1C;
+    border-style: solid;
+    border-color:#C98524;
+    border-width:6.48px;
+    background-color:#060D1C;
+    z-index: 8;
+}
+#button-container {
+    position: absolute;
+    top:66px;
+    left:-8px;
+    width:362.464px;
+    height:155.976px;
+    border-style:solid;
+    border-color:#B0A08B;
+    border-width:6.48px;
+    border-radius: 0px 0px 135px 0px;
+    background-color:#060D1C;
+    border-radius: 0px 0px 190px 0px;
+}
+#button {
+    position: absolute;
+    top:62px;
+    left:187px;
+    width: 48.075px;
+    height: 48.075px;
+    background-color: #006DB7;
+    border-radius: 50%;
+    z-index: 30;
+}
+.left-container {
+    position: absolute;
+    top:-2px;
+    left:16px;
+}
+#rectangle2 {
+    position: absolute;
+    top:391px;
+    left:-1587px;
+    width:1900.604px;
+    height:28.671px;
+    fill:#060D1C;
+    border-style: solid;
+    border-color:#900300;
+    border-width:6.48px;
+    background-color:#060D1C; 
+    z-index: 8;
+    
+}
+.descriptor-paragraph {
+    position: absolute;
+    top:424px;
+    left:-55px;
+    width: 374.583px;
+    height: 123.672px;
+    border-style: solid;
+    border-color: #C98524;
+    border-width: 6.48px;
+    background-color:#060D1C;
+    z-index: -8;
+}
+.descriptor-paragraph p {
+    position: absolute;
+    font-family: oswald, sans-serif;
+    font-weight: 300;
+    font-size: 9px;
+    width: 308px;
+    height: 58.769px;
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 22px;
+}
+
+.sources-container {
+    position: absolute;
+    top:548px;
+    left:-55px;
+    width: 374px;
+    height: 113.12px;
+    border-style: solid;
+    border-color: #B0A08B;
+    border-width: 6.48px;
+    border-radius: 0px 0px 0px 40px;
+    background-color:#060D1C; 
+    z-index: -9;
+}
+.sources-paragraphs{
+    position: absolute;
+    font-family: oswald, sans-serif;
+    font-weight: 300;
+    font-size: 8.5px;
+    width: 313px;
+    height: 119.843px;
+    margin-left: 30px;
+    margin-top: 9px;
+}
+p4 {
+    position: absolute;
+}
+p5 {
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 2em;
+    text-indent: -2em;
+}
+p6 {
+    position: absolute;
+    margin-top: 43.5px;
+    margin-left: 2em;
+    text-indent: -2em;
+}
+p7 {
+    position: absolute;
+    margin-top: 69px;
+}
+#face {
+    position: absolute;
+    top:665.99px;
+    left:97px;
+    border-style: solid;
+    border-width: 6.48px;
+    border-color: #900300; 
+    width: 222.8px;
+    height: 149px;
+    z-index: -10;
+    border-radius: 0px 0px 0px 40px;
+    overflow: hidden;
+}
+.assets/images/andresred.png {
+    resize: 50%
+}
+#letterform {
+    position: absolute;
+    top:-28px;
+    left:62px;
+    font-size: 215px;
+}
+.container-author {
+    position: absolute;
+    top:665px;
+    left:342px;
+    height: 81.633px;
+    width: 1500px;
+    border-style: solid;
+    border-color: #C98524;
+    border-width: 6.49px;
+    background-color:#060D1C;
+}
+h3 {
+    position: absolute;
+    top:10px;
+    left:24px;
+    font-family: oswald;
+    font-style: medium;
+    font-size: 12.92px;
+    text-transform: uppercase;
+}
+h4 {
+    position: absolute;
+    top:24px;
+    left:24px;
+    font-family: oswald;
+    font-style: medium;
+    font-size: 12.92px;
+    text-transform: uppercase;
+}
+#vertical-line1 {
+    position: absolute;
+    top: -800px;
+    left:321px;
+    border-left:6.48px solid #B0A08B;
+    height:1000px;
+    z-index: 9;
+}
+#vertical-line2 {
+    position:absolute;
+    top: 421px;
+    left:342px;
+    border-left: 6.48px solid #B0A08B;
+    height:2500px;
+    z-index: 9;
+}
+#angled-line {
+    position:absolute;
+    border-left:6.48px solid #900300;
+    height: 5477px;
+    top: -2095px;
+    left: 361px;
+    transform: rotate(39.5deg);
+    z-index: -11;
+}
+a {
+    text-decoration: underline;
+    color: #B0A08B;
+}
+a:hover {
+     color:#006DB7;
+}
+.analysis {
+    position: absolute;
+    z-index: 20;
+    top: -64px;
+    left: -81px;
+}
