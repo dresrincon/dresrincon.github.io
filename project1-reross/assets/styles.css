@@ -2,14 +2,14 @@
     position:relative;
     top: 50px;
     left: 35%;
-    width:631.92px;
-    height:817.53px;
+    width:673.503px;
+    height:871.196px;
     overflow:hidden;
 }
 .master-container {
     position: absolute;
-    top: -3px;
-    left: -5.5%;
+    top: 25px;
+    left: -14px;
     width: 614px;
     height: 795px;
     transform: rotate(-37deg);
@@ -65,7 +65,9 @@ body {
     border-style: solid;
     border-color:#900300;
     border-width: 6.48px;
-    background-color:#060D1C; 
+    background-color:#060D1C;
+    border-radius: 0px 190px 0px 0px;
+    overflow: hidden;
 }
 .alphabet-letters {
     position: absolute;
@@ -109,7 +111,7 @@ p3{
     position: absolute;
     top:45px;
     left:10px;
-    width:464.604px;
+    width:544.604px;
     height:28.671px;
     fill:#060D1C;
     border-style: solid;
@@ -128,7 +130,8 @@ p3{
     border-color:#B0A08B;
     border-width:6.48px;
     border-radius: 0px 0px 135px 0px;
-    background-color:#060D1C;    
+    background-color:#060D1C;
+    border-radius: 0px 0px 190px 0px;
 }
 #button {
     position: absolute;
@@ -235,13 +238,15 @@ p7 {
     width: 222.8px;
     height: 149px;
     z-index: -10;
+    border-radius: 0px 0px 0px 40px;
+    overflow: hidden;
 }
 .assets/images/andresred.png {
     resize: 50%
 }
 #letterform {
     position: absolute;
-    top:-26px;
+    top:-28px;
     left:62px;
     font-size: 215px;
 }
@@ -276,10 +281,10 @@ h4 {
 }
 #vertical-line1 {
     position: absolute;
-    top: -95px;
+    top: -126px;
     left:321px;
     border-left:6.48px solid #B0A08B;
-    height:450px;
+    height:529px;
     z-index: 9;
 }
 #vertical-line2 {
@@ -309,6 +314,6 @@ a:hover {
 .analysis {
     position: absolute;
     z-index: 20;
-    top: -62px;
+    top: -64px;
     left: -81px;
 }
