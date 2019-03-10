@@ -1,0 +1,157 @@
+.master-container {
+    width: 1024px;
+    height: 3868px;
+    position: relative;
+    margin: 0 auto;
+}
+.visible-container {
+    width: 2048px;
+    height: 9932px;
+}
+#intro {
+    width: 1491px;
+    height: 1142px;
+    background-color:antiquewhite;
+}
+#intro h1,
+#tools-education-container h1,
+.scenario1-choice-container h1,
+.scenario2-choice-container h1 {
+    width: 1357px;
+    height: 105px;
+    background-color: azure;
+    margin: 0 auto;
+}
+#intro p {
+    width:1357px;
+    height: 414px;
+    background-color: azure;
+    margin: 0 auto;
+}
+#tools-education-container {
+    width: 1491px;
+    height: 591px;
+    background-color:antiquewhite;
+}
+#popup1,
+#popup2,
+#popup3,
+#popup4 {
+    width: 669px;
+    height: 428px;
+    background-color: azure;
+    position: absolute;
+}
+#close-condom,
+#close-prep,
+#close-abstinence,
+#close-testing {
+    background-color: red;
+    width: 48.075px;
+    height: 48.075px;
+    border-radius: 50%;
+}
+
+.scenario-choose-container {
+    width: 1194px;
+    height: 244px;
+    background-color: antiquewhite;
+}
+#scenario1-container h1,
+#scenario2-container h1 {
+    width: 1491px;
+    height: 184px;
+    background-color:azure;
+    margin: 0 auto;
+}
+#scenario1-container {
+    width: 1583px;
+    height: 3057px;
+    background-color:antiquewhite;
+}
+#story1line1,
+#story1line2,
+#story1line3,
+#story1line4,
+#story1line5,
+#story1line6,
+#story1line7 {
+    width: 390px;
+    height: 390px;
+    background-color: azure;
+}
+#story1line2 {
+    float: right;
+}
+#story1line4 {
+    float: right;
+}
+#story1line6 {
+    float: right;
+}
+.scenario1-choice-container,
+.scenario2-choice-container {
+    width: 1583px;
+    height: 244px;
+    background-color: antiquewhite;
+}
+#scenario1-click-for-answer {
+    width: 1357px;
+    height: 105px;
+    background-color: red;
+}
+#scenario1-choice-popup {
+    width: 1373px;
+    height: 281.75px;
+    background-color:azure;
+}
+    
+#close-scenario1-explanation {
+    background-color: red;
+    width: 48.075px;
+    height: 48.075px;
+    border-radius: 50%;
+}
+#scenario2-container {
+    width: 1583px;
+    height: 3057px;
+    background-color:antiquewhite;
+}
+#story2line1,
+#story2line2,
+#story2line3,
+#story2line4,
+#story2line5,
+#story2line6,
+#story2line7 {
+    width: 390px;
+    height: 390px;
+    background-color: azure;
+}
+#story2line2 { 
+    float: right;
+}
+#story2line4 {
+    float: right;
+}
+#story2line6 {
+    float: right;
+}
+#scenario2-click-for-answer {
+    width: 1357px;
+    height: 105px;
+    background-color: red;
+}
+#scenario2-choice-popup {
+    width: 1373px;
+    height: 281.75px;
+    background-color:azure;
+}
+    
+#close-scenario2-explanation {
+    background-color: red;
+    width: 48.075px;
+    height: 48.075px;
+    border-radius: 50%;
+}
+
