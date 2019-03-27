@@ -1,0 +1,340 @@
+.body {
+    background-image: url(assets/);
+}
+.master-container {
+    width: 768px;
+    height: 2024.5px;
+    position: relative;
+    margin: 0 auto;
+}
+.visible-container {
+    width: 690.75px;
+    height: 2024.5px;
+}
+#character {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: fixed;
+    
+}
+#intro {
+    width: 559.125px;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color:antiquewhite;
+}
+#intro h1,
+.scenario1-choice-container h1 {
+    font-size: 20px;
+    width: 508.875px;
+    height: 39.375px;
+    background-color: azure;
+    margin: 0 auto;
+}
+#intro p {
+    width:508.875px;
+    height: 155.25px;
+    background-color: azure;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+#tools-education-container h1 {
+    font-size: 15px;
+    width: 508.875px;
+    height: 39.375px;
+    background-color: azure;
+    margin: 0 auto;
+}
+#tools-education-container {
+    width: 559.125px;
+    height: 217.875px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color:antiquewhite;
+}
+.flexbox {
+    width: 559.125px;
+    height: 217.875px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.condom-background {
+    width:100.172px;
+    height:100.172px;
+    margin: 13px;
+    background-color:blue;
+    background-image: url(assets/);
+    background-size: cover;
+    background-position: center center;
+}
+.prep-background {
+    width:100.172px;
+    height:100.172px;
+    margin: 13px;
+    background-color:blue;
+    background-image: url(assets/);
+    background-size: cover;
+    background-position: center center;
+}
+.abstinence-background {
+    width:100.172px;
+    height:100.172px;
+    margin: 13px;
+    background-color:blue;
+    background-image: url(assets/);
+    background-size: cover;
+    background-position: center center;
+}
+.testing-background {
+    width:100.172px;
+    height:100.172px;
+    margin: 13px;
+    background-color:blue;
+    background-image: url(assets/);
+    background-size: cover;
+    background-position: center center;
+}
+#popup1,
+#popup2,
+#popup3,
+#popup4 {
+    visibility: hidden;
+    width: 260.412px;
+    height: 166.601px;
+    background-color: azure;
+    position: absolute;
+}
+#close-condom,
+#close-prep,
+#close-abstinence,
+#close-testing {
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+/*.scenario-choose-container {
+    width: 1194px;
+    height: 244px;
+    background-color: antiquewhite;*/
+}
+#scenario1-container h1 {
+    width: 580.379px;
+    height: 71.623px;
+    background-color:azure;
+    margin: 0 auto;
+}
+#scenario1-container {
+    width: 615.963px;
+    height: 1462.202px;
+    margin: 0 auto;
+    margin-top: 200px;
+    background-color:antiquewhite;
+}
+#story1line1,
+#story1line2,
+#story1line3,
+#story1line4,
+#story1line5,
+#story1line6,
+#story1line7 {
+    width: 586px;
+    height: 193px;
+    background-color: moccasin;
+    margin: 0 auto;
+/*}
+#story1line1-img-text-outerbox,
+#story1line2-img-text-outerbox,
+#story1line3-img-text-outerbox,
+#story1line4-img-text-outerbox,
+#story1line5-img-text-outerbox,
+#story1line6-img-text-outerbox,
+#story1line7-img-text-outerbox {
+    position: absolute;
+    width: 151.753px;
+    height: 144.749px;
+    background-color: azure;*/
+}
+#story1line1-img-text-outerbox{
+    position: absolute;
+    width: 151.753px;
+    height: 144.749px;
+    background-color: azure;
+    left: 90px;
+}
+#story1line2-img-text-outerbox{
+    position: absolute;
+    width: 151.753px;
+    height: 144.749px;
+    background-color: azure;
+    left: 450px;
+}
+#story1line3-img-text-outerbox{
+    position: absolute;
+    width: 151.753px;
+    height: 144.749px;
+    background-color: azure;
+    left: 90px;
+}
+#story1line4-img-text-outerbox{
+    position: absolute;
+    width: 151.753px;
+    height: 144.749px;
+    background-color: azure;
+    left: 450px;
+}
+#story1line5-img-text-outerbox{
+    position: absolute;
+    width: 151.753px;
+    height: 144.749px;
+    background-color: azure;
+    left: 90px;
+}
+#story1line6-img-text-outerbox{
+    position: absolute;
+    width: 151.753px;
+    height: 144.749px;
+    background-color: azure;
+    left: 450px;
+}
+#story1line7-img-text-outerbox {
+    position: absolute;
+    width: 151.753px;
+    height: 144.749px;
+    background-color: azure;
+    left: 90px;
+}
+#story1line1-img-text-innerrbox,
+#story1line2-img-text-innerbox,
+#story1line3-img-text-innerbox,
+#story1line4-img-text-innerbox,
+#story1line5-img-text-innerbox,
+#story1line6-img-text-innerbox,
+#story1line7-img-text-innerbox {
+    position: relative;
+    width: 151.753px;
+    height: 144.749px;
+    background-color: azure;
+}
+#triangle-S1L1,
+#triangle-S1L2,
+#triangle-S1L3,
+#triangle-S1L4,
+#triangle-S1L5,
+#triangle-S1L6,
+#triangle-S1L7 {
+    position: absolute;
+    width: 151.753px;
+    height: 144.749px;
+}
+#S1L1-p,
+#S1L2-p,
+#S1L3-p,
+#S1L4-p,
+#S1L5-p,
+#S1L6-p,
+#S1L7-p {
+    position: absolute;
+    width: 151.753px;
+    height: 144.749px;
+}
+#scenario1-choice-container{ 
+/*.scenario2-choice-container {*/
+    width: 580.165px;
+    height: 275.88px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: antiquewhite;
+}
+#scenario1-click-for-answer {
+    width: 170.967px;
+    height: 34.631px;
+    background-color: red;
+    margin: 0 auto;
+}
+#scenario1-choice-popup {
+    width: 501.044px;
+    height: 102.179px;
+    background-color:azure;
+    visibility: hidden;
+}
+    
+#close-scenario1-explanation {
+    background-color: red;
+    width: 48.075px;
+    height: 48.075px;
+    border-radius: 50%;
+}
+.wind {
+    background-color:turquoise
+}
+.visible {
+    visibility: visible !Important;
+}
+/*.modal-content {
+    background-color:aliceblue;
+    padding:40px;
+    border: 1px solid #888;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #888;
+    width: 60%;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    visibility: hidden;
+    z-index: 200;
+    display:flex;
+}*/
+/*.close {
+    ***a bunch of code to literally style the x button
+    Note: I only need to include an x if i dont have access to the original button because having access to the original button would allow me to simply toggle*/
+/*
+#scenario2-container {
+    width: 1583px;
+    height: 3057px;
+    background-color:antiquewhite;
+*/
+/*}
+#story2line1,
+#story2line2,
+#story2line3,
+#story2line4,
+#story2line5,
+#story2line6,
+#story2line7 {
+    width: 390px;
+    height: 390px;
+    background-color: azure;
+}
+#story2line2 { 
+    float: right;
+}
+#story2line4 {
+    float: right;
+}
+#story2line6 {
+    float: right;
+}
+#scenario2-click-for-answer {
+    width: 1357px;
+    height: 105px;
+    background-color: red;
+}
+#scenario2-choice-popup {
+    width: 1373px;
+    height: 281.75px;
+    background-color:azure;
+}
+    
+#close-scenario2-explanation {
+    background-color: red;
+    width: 48.075px;
+    height: 48.075px;
+    border-radius: 50%;*/
+}
+

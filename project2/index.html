@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>HIV PREVENTION</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="master-container">
+    <div class="visible-container">
+        <img src=".svg" id="character">
+        <img src="title-image.jpg">
+        <div id="intro">
+            <h1>Welcome!</h1>
+            <p>Intro paragraph</p>
+            <p>Summary of 2 scenarios</p>
+        </div>
+        <div id="tools-education-container">
+            <h1>Get to know your tools!</h1>
+            <div class="flexbox">
+                <div id="condom" class="button condom-background"></div>
+                <div id="prep" class="button prep-background"></div>
+                <div id="abstinence" class="button abstinence-background"></div>
+                <div id="testing" class="button testing-background"></div>
+            </div>
+        </div>
+        
+<!--*Modal for initial tool education-->
+        <div id="popup1">
+             <p>Condom use explanation</p>
+            <div class="close" id="close-condom"></div>
+        </div>
+        <div id="popup2">
+             <p>Prep use explanation</p>
+            <div id="close-prep"></div>
+        </div>
+        <div id="popup3">
+             <p>Abstinence explanation</p>
+            <div id="close-abstinence"></div>
+        </div>
+        <div id="popup4">
+             <p>Testing explanation</p>
+            <div id="close-testing"></div>
+        </div>
+    
+<!--    <div class="scenario-choose-container">
+        <button></button>
+        <button></button>-->
+        <div id="scenario1-container">
+            <h1>Scenario 1</h1>
+            <div id="story1line1">
+                <div id="story1line1-img-text-outerbox">
+                    <div id="story1line1-img-text-innerbox">
+                        <img src="triangle" id="triangle-S1L1">
+                        <div id="S1L1-p"><p>story1line1</p></div>
+                    </div>
+                </div>
+            </div>
+            <div id="story1line2">
+                <div id="story1line2-img-text-outerbox">
+                    <div id="story1line2-img-text-innerbox">
+                        <img src="triangle" id="triangle-S1L2">
+                        <div id="S1L2-p"><p>story1line2</p></div>
+                    </div>
+                </div>
+            </div>
+            <div id="story1line3">
+                <div id="story1line3-img-text-outerbox">
+                    <div id="story1line3-img-text-innerbox">
+                        <img src="triangle" id="triangle-S1L3">
+                        <div id="S1L3-p"><p>story1line3</p></div>
+                     </div>
+                </div>   
+            </div>
+            <div id="story1line4">
+                <div id="story1line4-img-text-outerbox">
+                    <div id="story1line4-img-text-innerbox">
+                        <img src="triangle" id="triangle-S1L4">
+                        <div id="S1L4-p"><p>story1line4</p></div>
+                    </div>
+                </div>   
+            </div>
+            <div id="story1line5">
+                <div id="story1line5-img-text-outerbox">
+                    <div id="story1line5-img-text-innerbox">
+                        <img src="triangle" id="triangle-S1L5">
+                        <div id="S1L5-p"><p>story1line5</p></div>
+                    </div>
+                </div>   
+            </div>
+            <div id="story1line6">
+                <div id="story1line6-img-text-outerbox">
+                    <div id="story1line6-img-text-innerbox">
+                        <img src="triangle" id="triangle-S1L6">
+                        <div id="S1L6-p"><p>story1line6</p></div>
+                    </div>
+                </div>     
+            </div>
+            <div id="story1line7">
+                <div id="story1line7-img-text-outerbox">
+                    <div id="story1line7-img-text-innerbox">
+                        <img src="triangle" id="triangle-S1L7">
+                        <div id="S1L7-p"><p>story1line7</p></div>
+                    </div>
+                </div>    
+            </div>
+        </div> 
+        <div id="scenario1-choice-container">
+                <h1>The time has come to make a choice.</h1>
+                <div class="flexbox">
+                    <div id="condom2" class="button condom-background"></div>
+                    <div id="prep2" class="button prep-background"></div>
+                    <div id="abstinence2" class="button abstinence-background"></div>
+                    <div id="testing2" class="button testing-background"></div>
+                </div>
+               <!-- <img src="condom.jpg"
+                id="s1condom">
+                <img src="prep.jpg"
+                id="s2prep">
+                <img src="abstinence.jpg"
+                id="s3abstinence">
+                <img src="testing.jpg"
+                id="s4testing">-->
+                <div id="scenario1-click-for-answer">
+                    <p>Click to reveal best choice</p>
+                </div>
+                </div>
+        
+        
+<!--*Modal for scenario 1 popup-->
+        <div id="scenario1-choice-popup">
+            <p>Expanation of the best way to deal with this scenario</p>
+            <div id="close-scenario1-explanation"></div>
+        </div>
+
+<!--
+        <div id="scenario2-container">
+            <h1>Scenario 2</h1>
+            <div id="story2line1"><p>story2line1</p></div>
+            <div id="story2line2"><p>story2line2</p></div>
+            <div id="story2line3"><p>story2line3</p></div>
+            <div id="story2line4"><p>story2line4</p></div>
+            <div id="story2line5"><p>story2line5</p></div>
+            <div id="story2line6"><p>story2line6</p></div>
+            <div id="story2line7"><p>story2line7</p></div>
+        </div> 
+        <div class="scenario2-choice-container">
+                <h1>The time has come to make a choice.</h1>
+                <img src="condom.jpg"
+                id="s2condom">
+                <img src="prep.jpg"
+                id="s2prep">
+                <img src="abstinence.jpg"
+                id="s3abstinence">
+                <img src="testing.jpg"
+                id="s4testing">
+                <div id="scenario2-click-for-answer">
+                    <p>Click to reveal best choice</p>
+                </div>
+        </div>
+        
+*Modal for scenario 2 popup
+        <div id="scenario2-choice-popup"> 
+            <p>Expanation of the best way to deal with this scenario</p>
+            <div id="close-scenario2-explanation"></div>
+        </div>
+-->
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <script src="javascript/popup-template.js"></script>
+</body>
+    
+</html>
