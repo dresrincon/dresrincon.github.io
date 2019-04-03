@@ -1,0 +1,135 @@
+#overall-container {
+    width: 375px;
+}
+
+.experiences {
+    margin-top: 1.55em;
+}
+
+.left-container,
+.right-container {
+    width: 375px;
+    margin-top: 2.25em;
+}
+
+.education-honors-courses-skills {
+    margin-top: 1.55em;
+}
+
+h1 {
+    font-family: minion-pro, serif;
+    font-size: 1.375em;
+    font-weight: 600;
+    font-style: normal; 
+    letter-spacing: .25em;
+    text-align: center;
+    margin: 0 auto;
+}
+#contact {
+    font-family: minion-pro, serif;
+    font-size: .59375em;
+    font-weight: 400;
+    font-style: regular; 
+    letter-spacing: .15em;
+    text-align: center;
+    
+}
+h2 {
+    font-family: minion-pro, serif;
+    font-size: .6875em;
+    font-weight: 700;
+    font-style: normal;
+    text-align:center;
+}
+h3 {
+    font-family: minion-pro, serif;
+    font-size: .59375em;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+h4 {
+    font-family: minion-pro, serif;
+    font-size: .59375em;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+}
+h5 {
+    font-family: minion-pro, serif;
+    font-size: .59375em;
+    font-weight: 400;
+    font-style: regular;
+    text-align: center;
+}
+ul {
+    font-family: minion-pro, serif;
+    font-size: .59375em;
+    font-weight: 400;
+    font-style: regular;
+    /*margin-left: 1.25em;*/
+    padding: 0;
+    list-style-type:none;
+}
+li {
+    margin-top: 1.1em;
+}
+p {
+    font-family: minion-pro, serif;
+    font-size: .59375em;
+    font-weight: 400;
+    font-style: regular;
+    text-align: center;
+}
+@media only screen and (min-width:
+960px) {
+
+    #overall-container {
+        width: 1920px;
+    }
+    .flex {
+        display: flex;
+    }
+    .left-container {
+        width: 362px;
+        margin-right: 100px;
+    }
+    .middle-container {
+        width: 362px;
+        margin-right: 100px;
+        margin-top: 60px;
+        border-left-style: solid;
+        border-left-width: .25px;
+        border-left-color: black;
+        padding-left: 50px;
+        
+    }
+    .right-container {
+        width: 180px;
+        margin-top: -32px;
+        border-left-style: solid;
+        border-left-width: .25px;
+        border-left-color: black;
+        padding-left: 50px;
+        height: 625px;
+        
+    }
+    p,
+    li,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    #contact {
+        text-align: left;
+    }
+    .experiences {
+        margin-top: 50px;
+    }
+    .education-honors-courses-skills {
+        margin-top: 40px;
+    }
+    .education-honors-class-skills h2 {
+        margin-top: 0px;
+    }
