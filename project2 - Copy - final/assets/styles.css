@@ -37,9 +37,10 @@ body {
     background-size:cover;
     background-position: center center;
     position: fixed;
-    top: 100px;
-    left: 550px;
+    top: 35%;
+    left: 50.15%;
     z-index: 1;
+    transform: translate(-50%, -50%);
 }
 #intro {
     width: 589.125px;
@@ -49,7 +50,6 @@ body {
     border-width: 1px;
     border-color: #FB447C;
     box-shadow: 0 0 6px #FB447C;
-    /*background-color:antiquewhite;*/
 }
 #intro h1,
 #scenario1-container h1 {
@@ -66,7 +66,7 @@ body {
     text-shadow: 0 0 15px #FB447C;
 }
 #scenario1-container h1 {
-    text-align: center;   
+    text-align: center;
 }
 #intro-part1,
 #intro-part2 {
@@ -74,7 +74,6 @@ body {
     height: 120.25px;
     margin: 0 auto;
     margin-top: 2px;
-    /*background-color: azure;*/
     font-family: ff-typestar-black-web, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -87,7 +86,6 @@ body {
     margin-top: -37px;
     margin-left: 40px;
     margin-bottom: 16px;
-    /*background-color: azure;*/
     font-family: ff-typestar-black-web, sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -116,7 +114,6 @@ body {
     width: 559.125px;
     height: 217.875px;
     position: relative;
- /*   display:flex;*/
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -204,6 +201,17 @@ body {
     background-size: cover;
     background-position: center center;
     visibility: hidden;
+}
+.condom-background,
+.condom-background-2,
+.prep-background,
+.prep-background-2,
+.abstinence-background,
+.abstinence-background-2,
+.testing-background,
+.testing-background-2 {
+    clip-path: inset(5px 33px);
+    cursor: pointer;
 }
 #click-on-icons-direction {
     width: 285px;
@@ -390,15 +398,9 @@ li {
 #popup4 ul{
     color: #B4AC92;
 }
-/*.scenario-choose-container {
-    width: 1194px;
-    height: 244px;
-    background-color: antiquewhite;*/
-}
 #scenario1-container h1 {
     width: 580.379px;
     height: 71.623px;
-    background-color:azure;
     margin: 0 auto;
 }
 #scenario1-container {
@@ -406,7 +408,6 @@ li {
     height: 2150px;
     margin: 0 auto;
     margin-top: 450px;
-    /*background-color:antiquewhite;*/
 }
 #story1line2,
 #story1line3,
@@ -416,76 +417,55 @@ li {
 #story1line7 {
     width: 586px;
     height: 193px;
-    /*background-color: moccasin;*/
     margin: 0 auto;
     margin-top: 100px;
 }
 #story1line1 {
     width: 586px;
     height: 193px;
-    /*background-color: moccasin;*/
     margin: 0 auto;
     margin-top: 210px;
-/*}
-#story1line1-img-text-outerbox,
-#story1line2-img-text-outerbox,
-#story1line3-img-text-outerbox,
-#story1line4-img-text-outerbox,
-#story1line5-img-text-outerbox,
-#story1line6-img-text-outerbox,
-#story1line7-img-text-outerbox {
-    position: absolute;
-    width: 151.753px;
-    height: 144.749px;
-    background-color: azure;*/
 }
 #story1line1-img-text-outerbox{
     position: absolute;
     width: 250px;
     height: 250px;
-    /*background-color: azure;*/
     left: 52px;
 }
 #story1line2-img-text-outerbox{
     position: absolute;
     width: 250px;
     height: 250px;
-    /*background-color: azure;*/
     left: 511px;
 }
 #story1line3-img-text-outerbox{
     position: absolute;
     width: 250px;
     height: 250px;
-   /* background-color: azure;*/
     left: 52px;
 }
 #story1line4-img-text-outerbox{
     position: absolute;
     width: 250px;
     height: 250px;
-    /*background-color: azure;*/
     left: 489px;
 }
 #story1line5-img-text-outerbox{
     position: absolute;
     width: 250px;
     height: 250px;
-   /* background-color: azure;*/
     left: 64px;
 }
 #story1line6-img-text-outerbox{
     position: absolute;
     width: 250px;
     height: 250px;
-    /*background-color: azure;*/
     left: 520px;
 }
 #story1line7-img-text-outerbox {
     position: absolute;
     width: 250px;
     height: 250px;
-    /*background-color: azure;*/
     left: 80px;
 }
 #story1line1-img-text-innerrbox,
@@ -498,7 +478,6 @@ li {
     position: relative;
     width: 250px;
     height: 250px;
-    /*background-color: azure;*/
 }
 #triangle-S1L1,
 #triangle-S1L2,
@@ -569,7 +548,6 @@ li {
     width: 185px;
 }
 #scenario1-choice-container{ 
-/*.scenario2-choice-container {*/
     width: 580.165px;
     height: 400.88px;
     margin: 0 auto;
@@ -670,67 +648,5 @@ li {
 ::-webkit-scrollbar-thumb {
     background:grey;
     border-radius: 2px;
-}
-/*.modal-content {
-    background-color:aliceblue;
-    padding:40px;
-    border: 1px solid #888;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #888;
-    width: 60%;
-    position: absolute;
-    left: 100px;
-    top: 100px;
-    visibility: hidden;
-    z-index: 200;
-    display:flex;
-}*/
-/*.close {
-    ***a bunch of code to literally style the x button
-    Note: I only need to include an x if i dont have access to the original button because having access to the original button would allow me to simply toggle*/
-/*
-#scenario2-container {
-    width: 1583px;
-    height: 3057px;
-    background-color:antiquewhite;
-*/
-/*}
-#story2line1,
-#story2line2,
-#story2line3,
-#story2line4,
-#story2line5,
-#story2line6,
-#story2line7 {
-    width: 390px;
-    height: 390px;
-    background-color: azure;
-}
-#story2line2 { 
-    float: right;
-}
-#story2line4 {
-    float: right;
-}
-#story2line6 {
-    float: right;
-}
-#scenario2-click-for-answer {
-    width: 1357px;
-    height: 105px;
-    background-color: red;
-}
-#scenario2-choice-popup {
-    width: 1373px;
-    height: 281.75px;
-    background-color:azure;
-}
-    
-#close-scenario2-explanation {
-    background-color: red;
-    width: 48.075px;
-    height: 48.075px;
-    border-radius: 50%;*/
 }
 
