@@ -1,0 +1,320 @@
+#master-container {  
+    width: 100%;
+    background-color:#929396;
+    padding-top:.1px;
+}
+#header-container {
+    width: 92.8%;
+    height: 92px;
+    background-color:#B8B8BF;
+    margin-right:3.5%;
+    margin-left:3.5%;
+    margin-top:13px;
+    padding-top:.1px;
+}
+#name {
+    width: 88.2%;
+    height: 20px;
+    margin-right: 6%;
+    margin-left: 6%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color:#D6D6D6;
+    text-align: center;
+    font: minion-pro-semibold;
+    font-size: 20px;
+    letter-spacing: 3px;
+    border-bottom: 1px solid black;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-top: 1px solid black;
+}
+#button-container {
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    background-color:#D6D6D6;
+    display: flex;
+}
+#work-button,
+#about-button,
+#resume-button {
+    width: 100%;
+    background-color: white;
+    margin-top: 18px;
+    font-size: 17px;
+    font-family: minion-pro, serif;
+    font-style: italic;
+    width: 93px;
+    margin-right: 20.2px;
+/*    height: 25px;*/
+    background-color: white;
+    text-align: center;
+}
+#work-button {
+    text-align: left;
+}
+#about-button {
+    text-align: center;
+}
+#resume-button {
+    text-align: right;
+}
+#projects-container1-flex {
+    width: 92.8%;
+    background-color:#B8B8BF;
+    margin-left: 3.4%;
+    padding-top:.1px;
+    margin-top: 40px;
+}
+#projects-container2-flex {
+    width: 92.8%;
+    background-color:#B8B8BF;
+    margin-left: 3.4%;
+    padding-top:.1px;
+}
+#project1-icon-button,
+#project2-icon-button,
+#project3-icon-button,
+#project4-icon-button {
+    width: 88.4%;
+/*    height: 88px;*/
+    background-color:#D6D6D6;
+    margin-top: 8%;
+    margin-left: 5.9%;
+    padding-top: .1px;
+}
+#project1-title-on-hover,
+#project2-title-on-hover,
+#project3-title-on-hover,
+#project4-title-on-hover {
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    margin-top:30%;;
+    font-size: 17px;
+    font-family: minion-pro, serif;
+    font-style: italic;
+}
+#footer-social-container {
+    width: 92.8%;
+/*    height: 50px;*/
+    background-color:#B8B8BF;
+    margin-left:3.5%;
+    margin-top: 8%;
+    padding-top:.1px;
+}
+#icon-bar {
+    width: 320px;
+/*    height: 39px;*/
+    margin: 0 auto;
+    background-color: #D6D6D6;
+    display: flex;
+}
+#instagram-button,
+#linkedin-button,
+#email-button {
+    font-size: 17px;
+    font-family: minion-pro, serif;
+    font-style: italic;
+    width: 93px;
+    margin-right: 21px;
+/*    height: 25px;*/
+    background-color: white;
+}
+#linkedin-button {
+    text-align: center;
+}
+#email-button {
+    text-align: right;
+}
+
+@media only screen and (min-width:
+768px) {
+    #master-container {  
+        width: 100%;
+    }
+    #header-container {
+        width: 96.4%;
+        height: 92px;
+        margin-left: 1.8%;
+        margin-right: 1.8%;
+        margin-top: 13px;
+        display: flex;
+    }
+    #name {
+        width: 110%;
+        margin-left: 20px;
+    }
+    #button-container {
+        margin-left: auto;
+        margin-right: 20px;
+        display: flex;
+        width: 307px;
+        height: 20px;
+        margin-top: 30px;
+    }
+    #work-button,
+    #about-button,
+    #resume-button {
+    margin-right: 0px;
+    width: 102.1px;
+    height: 20px;
+    }
+    #projects-container1-flex {
+        width: 96.3%;
+        margin: 20px;
+        margin-left: 1.8%;
+        margin-right: 1.8%;
+        display: flex;
+    }
+    #projects-container2-flex {
+        width: 96.3%;
+        margin-left: 1.8%;
+        margin-right: 1.8%;
+        display: flex;
+        margin-top: -27px;
+    }
+    #project1-icon-button,
+    #project2-icon-button,
+    #project3-icon-button,
+    #project4-icon-button {
+        width: 340px;
+        height: 400px;
+    }
+    #project1-icon-button,
+    #project2-icon-button {
+        width: 50%;
+        max-width: 50%;
+        height: 400px;
+    }
+    #project3-icon-button,
+    #project4-icon-button {
+        width: 50%;
+        max-width: 50%;
+        height: 400px;
+    }
+     #project1-icon-button {
+        margin-left: 20px;
+        margin-top: 27px;
+        margin-right: 20px;
+    }
+    #project3-icon-button {
+        margin-left: 20px;
+        margin-top: 27px;
+        margin-right: 20px;
+    }
+    #project2-icon-button,
+    #project4-icon-button {
+        margin-left: auto;
+        margin-right: 20px;
+        margin-top: 27px;
+    }
+    #project1-title-on-hover,
+    #project2-title-on-hover,
+    #project3-title-on-hover,
+    #project4-title-on-hover {
+    margin-top:180px;
+    }
+    #footer-social-container {
+        width: 96.4%;
+        margin-left: 1.8%;
+        margin-right: 1.8%;
+        margin-top: 13px;
+        margin-right: 7px;   
+    }
+    #icon-bar {
+        margin-left: auto;
+        margin-right:45px;
+        display: flex;
+        width: 307px;
+        height: 20px;
+        margin-top: 30px;
+    }
+    #instagram-button,
+    #linkedin-button,
+    #facebook-button {
+        width: 110px;
+        margin-right: 10px;
+    }
+
+@media only screen and (min-width:1366px){
+    #projects-container1-flex {
+        width: 96.4%;
+        height: 500px;
+        display: block;
+    }
+    #projects-container2-flex {
+        width: 96.4%;
+        height: 500px;
+        display: block;
+        margin-top: -44px;
+    }
+    #master-container {  
+        width: 100%;
+    }
+    #header-container {
+        width: 95%;
+        height: 92px;
+        margin-left: 1.8%;
+        margin-right: 1.8%;
+        margin-top: 13px;
+        display: flex;
+    }
+    #name {
+        width: 110%;
+        margin-left: 20px;
+    }
+     #button-container {
+        margin-left: auto;
+        margin-right: 0%;
+        display: flex;
+        width: 307px;
+        height: 20px;
+        margin-top: 30px;
+    }
+    #work-button,
+    #about-button,
+    #resume-button {
+        width: 102.1px;
+        height: 20px;
+    }
+    #project1-icon-button,
+    #project2-icon-button {
+        max-width: none;
+        height: 400px;
+    }
+    #project3-icon-button,
+    #project4-icon-button {
+        max-width: none;
+        height: 400px;
+    }
+    #project1-icon-button,
+    #project2-icon-button,
+    #project3-icon-button,
+    #project4-icon-button {
+        width: 97.4%;
+        margin: 20px;
+        margin-right: 20px;
+        height: 218.36px;
+    }
+    #project1-title-on-hover,
+    #project2-title-on-hover,
+    #project3-title-on-hover,
+    #project4-title-on-hover {
+    width: 340px;
+    height: 56px;
+    background-color: white;
+    text-align: center;
+    margin-left:0;
+    margin-top:99px;
+    }
+    #footer-social-container {
+        float: right;
+        margin-left: 20px;
+    }
+    #icon-bar {
+        float: right;
+        margin-right: 4.4%;
+    }
